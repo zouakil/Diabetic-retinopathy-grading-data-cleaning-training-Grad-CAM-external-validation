@@ -1,0 +1,39 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data (APTOS, IDRiD and everything generated from them: not redistributable)
+data/
+Data/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+archive_v1/models/
+archive_v1/
+
+# Secrets and credentials
+kaggle.json
+.env
+*.pem
+.aws/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and logs
+*.zip
+*.log
